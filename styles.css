@@ -3,138 +3,83 @@ padding: 0;
 margin: 0;
 }
 
-body{
-display:grid;
-grid-template-areas: "header header header"
-                          "main main main"
-                          "main main main"
-                          "main main main"
-                          "main main main"
-                          "main main main"
-                          "footer footer footer";
-min-height: 100vh;
-}
-.main-title-container {
-display:flex;
-flex-direction: column;
-align-items: center;
-}
-header {
-grid-area: header;
-background-color: #ffffff;
-grid-template-rows: 100% 100% 100%;
-color: black;
+.container-fluid {
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
-.hd {
-    background-color: #fdfbfb;
-    color: black;
-    padding-top: 10px;
+h1 {
+    position: inherit;
 }
 
-#Blog{
-padding: 15px 20px;
-}
-.blog-title-container{
-display: flex;
-justify-content: center;
-margin-bottom: 30px;
+
+.jumbotron {
+    background-image: url(img/jumbotron.jpg.jpg);
+    color: yellow;
+    background-position: center;
+    
 }
 
-.display-4 {
-    padding-bottom: 20px;
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.blog{
-display: flex;
-justify-content: space-between;
-flex-direction: column;
-}
-@media(min-width: 768px){
-    .blog {
-flex-direction: row;
-    }
+.adicionales {
+    background-image: url(img/workshop2.jpg);
+    color: yellow;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
 }
 
-.car-card{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.car-image{
-max-width: 300px;
+.form-control {
+    max-width: 350px;
 }
 
-main {
-grid-area: main;
+.button {
+    color: yellow;
+    background-color: black;
+
 }
 
-#jumbotron{
-background: linear-gradient(90deg,rgba(103, 172, 228, 0.575) 10%,
-#fdf1f1), url(img/jumbotron.jpg.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center 70%;
-display:flex;
-justify-content: start;
-padding: 15px 20px;
-}
-@media(min-width: 768px){
-    #jumbotron {
-justify-content: end;
-padding: 15px 100px;
-    }
-}
-.jumbotron-description{
-display: flex;
-flex-direction: column;
-justify-content:end;
-max-width: 240px;
-}
-@media(min-width: 768px){
-    .jumbotron-description {
-max-width: 400px;
-    }
-}
 
-#blog{
-background-color: whitesmoke;
-}
+ /* Style all font awesome icons */
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Youtube */
+  .fa-youtube {
+    background: red;
+    color: white;
+  } 
 
-#adicionales{
-background-color: #fdf1f1;
-padding: 15px 20px;
-}
-.adicional-description{
-max-width: 400px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-.adicional-img{
-max-width: 400px;
-}
-.adicional-container{
-display: flex;
-justify-content: space-around;
-}
-.adicionales-title-container{
-display: flex;
-justify-content: center;
-margin-bottom: 30px;
-}
+   /* Instagram */
+   .fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  }
 
-.inline {
-display:inline; padding:30px;
-color: black;
-}
-footer {grid-area: footer;
-background-color:#be1919;
-padding: 2rem 2rem;
-text-align: center;
-}
-
-footer p {
-    margin-top: 20px;
-}
+    /* linkedin */
+    .fa-linkedin {
+        background: #0077b5;
+        color: white;
+      } 
+    
